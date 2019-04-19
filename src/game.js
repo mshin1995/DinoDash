@@ -132,7 +132,7 @@ class GameScene extends Phaser.Scene {
         this.scene.start('GameScene')
         this.isGameOver = false
         this.score = 0
-        fetch(`http://localhost:3000/users`)
+        fetch(`https://cryptic-crag-84668.herokuapp.com/users`)
           .then(res => res.json())
           .then((data) => {
             data.sort(function(a, b) {return b.score - a.score})
@@ -149,11 +149,11 @@ class GameScene extends Phaser.Scene {
       this.gameover.setScale(1.2)
       let user_id = localStorage.getItem('user_id')
 
-      fetch(`http://localhost:3000/users` + `/${user_id}`)
+      fetch(`https://cryptic-crag-84668.herokuapp.com/users` + `/${user_id}`)
         .then(res => res.json())
         .then((data) => {
           if(data.score < this.score) {
-            fetch(`http://localhost:3000/users` + `/${user_id}`, {
+            fetch(`https://cryptic-crag-84668.herokuapp.com/users` + `/${user_id}`, {
               method: 'PATCH',
               headers: {
                 'Accept': 'application/json',

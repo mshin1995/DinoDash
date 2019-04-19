@@ -1,6 +1,6 @@
 const userForm = document.getElementById('user_form')
 const scoreinput = document.getElementById('score')
-const userURL = `http://localhost:3000/users`
+const userURL = `https://cryptic-crag-84668.herokuapp.com/users`
 
 userForm.addEventListener('submit', createUser)
 
