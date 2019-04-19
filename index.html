@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel='stylesheet' href='assets/main.css'>
+    <script defer src="src/phaser.js"></script>
+  </head>
+  <body>
+    <section id="header" class="section">
+			<div class="inner">
+        <div id='canvas'>
+        </div>
+        <div id='users' style="display: none">
+          <h1 class='flux'>HI-SCORES</h1>
+            <br>
+          <div class="users" id='topusers'>
+          </div>
+        </div>
+        <div>
+          <div id='form'>
+					  <span class="icon major fa-cloud"></span>
+					  <h1 id='enter'>Enter your name to play:</h1>
+              <br>
+            <form id="user_form">
+              <input id="user_input" type="text" name="user"/>
+                <br>
+              <input type="submit" value="Submit"/>
+            </form>
+          </div>
+				</div>
+      </div>
+		</section>
+
+    <script defer type='module' src="src/main.js"></script>
+  </body>
+</html>
