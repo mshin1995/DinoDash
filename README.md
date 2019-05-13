@@ -25,7 +25,7 @@ Start the server:
 rails s
 ```
 
-## JavaScript(Frontend)
+### JavaScript(Frontend)
 To run locally, you must first replace the URL for every fetch request to http://localhost:3000/users or whatever localhost URL + /users that the backend is running on. An easy way to do so is to command + shift + f and search for "fetch". There should be five fetch requests in total.
 
 Then install http-server:
