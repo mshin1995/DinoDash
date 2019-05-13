@@ -6,6 +6,7 @@
 DinoDash is an infinitely side-scrolling video game developed in JavaScript using the Phaser framework. It utilizes a Rails backend to create users and save their final scores. The top ten scores are also displayed next to the game window.
 
 To see the full application in action go to https://mshin1995.github.io/DinoDash/
+For a blog post I wrote about this project go to https://dev.to/mshin1995/making-a-video-game-using-phaser-44m5
 
 ## Setup
 For use in a local environment, must setup both the frontend and the backend. The frontend can be cloned from this repository and the backend from [here](https://github.com/mshin1995/Dino-Dash-Backend). You will need to use PostgreSQL for the database.
