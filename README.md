@@ -1,7 +1,6 @@
 # DinoDash
 
 #### Created by Matthew Shin, May 2019
-###### Project completed for [Flatiron School](https://flatironschool.com/campuses/seattle/) module 3 curriculum.
 
 DinoDash is an infinitely side-scrolling video game developed in JavaScript using the Phaser framework. It utilizes a Rails backend to create users and save their final scores. The top ten scores are also displayed next to the game window.
 
